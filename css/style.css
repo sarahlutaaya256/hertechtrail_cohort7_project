@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #4294e3;
-    --secondary: rgb(66, 6, 6);
-    --light: #f0f6ff;
-    --dark: #262b47;
+    --primary:#e580ad;
+    --secondary:#a10a11 ;
+    --light: #f0f8ff;
+    --dark:#da920b;
 }
 
 /*** Spinner ***/
@@ -19,6 +19,7 @@
     visibility: visible;
     opacity: 1;
 }
+
 
 /*** Heading ***/
 h1,
@@ -297,6 +298,57 @@ h6,
     background-repeat: no-repeat;
 }
 
+
+.hero-header h1 {
+        text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+      }
+    .hero-header  .animation {
+        height:80px;
+        overflow:hidden;
+        margin-left: 1rem;
+      }
+
+      .hero-header .animation > div > div {
+        padding: 0.25rem 0.75rem;
+        height:5rem;
+        font-size: 30px;
+        margin-bottom: 3rem;
+        display:inline-block;
+      }
+  
+      
+     .hero-header .animation div:first-child {
+        animation: text-animation 8s infinite;
+      }
+      
+      .first div {
+        background-color:plum;
+        place-items: center;
+        border: 1px solid coral;
+        border-radius: 8px;
+      }
+      .second div {
+        background-color:coral;
+        place-items: center;
+        border:1px solid plum;
+        border-radius: 8px;
+      }
+    
+      @keyframes text-animation {
+        0% {margin-top: 0;}
+        10% {margin-top: 0;}
+        20% {margin-top: -5.62rem;}
+        30% {margin-top: -5.62rem;}
+        40% {margin-top: -11.24rem;}
+        60% {margin-top: -11.24rem;}
+        70% {margin-top: -5.62rem;}
+        80% {margin-top: -5.62rem;}
+        90% {margin-top: 0;}
+        100% {margin-top: 0;}
+      }
+      
+      
+
 @media (max-width: 991.98px) {
     .hero-header {
         padding: 6rem 0 9rem 0;
@@ -465,14 +517,29 @@ h6,
 
 /*** Footer ***/
 .footer {
+    
     margin-top: 6rem;
     padding-top: 9rem;
+    
     background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
         url(../img/bg-top.png),
-        linear-gradient(to bottom right, var(--primary), var(--secondary));
+        linear-gradient(to bottom right, var(--primary), var(--secondary)); 
     background-position: left 0px bottom 0px, right 0px top 50%, center top;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
+
+
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+color: var(--primary);
+}
+
+
 
 .footer .btn.btn-social {
     margin-right: 5px;
@@ -490,6 +557,7 @@ h6,
 .footer .btn.btn-social:hover {
     color: var(--primary);
 }
+
 
 .footer .btn.btn-link {
     display: block;
