@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary:#e580ad;
-    --secondary:#a10a11 ;
+    --primary:#445196;
+    --secondary:#38d3d3 ;
     --light: #f0f8ff;
-    --dark:#da920b;
+    --dark:#16abdd;
 }
 
 /*** Spinner ***/
@@ -38,6 +38,7 @@ h5,
 h6,
 .fw-medium {
     font-weight: 500 !important;
+    font-size: 30px;
 }
 
 /*** Gradient Text & BG ***/
@@ -322,13 +323,13 @@ h6,
       }
       
       .first div {
-        background-color:plum;
+        background-color:#d45ff1;
         place-items: center;
         border: 1px solid coral;
         border-radius: 8px;
       }
       .second div {
-        background-color:coral;
+        background-color:rgb(236, 100, 51);
         place-items: center;
         border:1px solid plum;
         border-radius: 8px;

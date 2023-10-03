@@ -1,3 +1,19 @@
 nav {
-    background-color: #6d4df2;
+    background-color:#6495ed;
 }
+.container h1{ 
+padding-top: 50px;
+
+}
+:root {
+    --primary:#445196;
+    --secondary:#38d3d3 ;
+    --light: #f0f8ff;
+    --dark:#16abdd;
+}
+body{
+    color: #816f77;
+}
+
+
+/********** Template CSS **********/
