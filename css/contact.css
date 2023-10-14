@@ -6,10 +6,10 @@ padding-top: 50px;
 
 }
 :root {
-    --primary:#445196;
-    --secondary:#38d3d3 ;
-    --light: #b7ee5e;
-    --dark:#16abdd;
+    --primary:#8b99df;
+    --secondary:#88e2e2 ;
+    --light:#eedacb;
+    --dark:#c1d6dd;
 }
 body{
     color: #816f77;
