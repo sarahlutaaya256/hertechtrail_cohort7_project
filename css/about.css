@@ -1,6 +1,15 @@
 :root {
-    --primary:#dddd3f;
-    --secondary: #02386e;
-    --light: #f0f8ff;
-    --dark:#056281;
+    --primary:#445196;
+    --secondary:#38d3d3 ;
+    --light: hwb(64 40% 3%);
+    --dark:#16abdd;
 }
+
+.container-xxl{
+background-color: rgb(220, 250, 252);
+
+
+}
+  
+
+    

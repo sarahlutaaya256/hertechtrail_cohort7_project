@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary:#445196;
-    --secondary:#38d3d3 ;
-    --light: #f7c7c7;
-    --dark:#16abdd;
+    --primary:#3347aa;
+    --secondary:#79fafa ;
+    --light: rgb(247, 250, 81);
+    --dark:#71fafa;
 }
 
 /*** Spinner ***/
@@ -217,6 +217,11 @@ h6,
     max-height: 45px;
 }
 
+
+.container-xxl {
+    background-color: rgba(250, 244, 244, 0.952);
+}
+
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
@@ -375,7 +380,7 @@ h6,
     padding: 12px 30px;
     font-weight: 500;
     color: var(--dark);
-    background: #ffffff;
+    background: #f7b3b3;
 }
 
 .pricing .nav-item:first-child .nav-link {
@@ -387,11 +392,11 @@ h6,
 }
 
 .pricing .nav-link.active {
-    color: #ffffff;
+    color: #f3efef;
     background: linear-gradient(
         to bottom right,
-        var(--primary),
-        var(--secondary)
+         var(--secondary), 
+        var(--primary)
     );
 }
 
@@ -532,7 +537,7 @@ h6,
 
 
 a{
-    color: #ffffff;
+    color: #fae8e8;
     text-decoration: none;
 }
 

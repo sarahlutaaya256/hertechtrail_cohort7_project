@@ -1,19 +1,56 @@
 nav {
-    background-color:#6495ed;
+    background-color:#8fb5fc;
 }
 .container h1{ 
 padding-top: 50px;
 
 }
 :root {
-    --primary:#8b99df;
-    --secondary:#88e2e2 ;
-    --light:#eedacb;
-    --dark:#c1d6dd;
+    --primary:#7c6fbb;
+    --secondary:#379b9b ;
+    --light:rgb(243, 243, 106);
+    --dark:#202b2e;
 }
-body{
+/* body{
     color: #816f77;
+} */
+.form-control{
+    /* background: transparent;
+    opacity: 0.9;
+    color: white; */
+
+    color: white;
+
+    background: rgba( 255, 255, 255, 0.15 );
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+
+    backdrop-filter: blur( 4.0px );
+    -webkit-backdrop-filter: blur( 4.0px );
+
 }
+.form-control:focus{
+background: transparent;
+color: white;
+
+}
+
+.form-control::placeholder{
+color: white;
+
+}
+
+
+  
+    
+
+
+
+
+
+
+
+
+
 
 
 /********** Template CSS **********/
