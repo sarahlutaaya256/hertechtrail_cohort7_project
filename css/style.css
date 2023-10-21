@@ -165,8 +165,11 @@ h6,
         to bottom right,
         var(--primary),
         var(--secondary)
-    );
+    )
+
 }
+    
+
 
 /*** Navbar ***/
 .navbar-light .navbar-nav .nav-link {
