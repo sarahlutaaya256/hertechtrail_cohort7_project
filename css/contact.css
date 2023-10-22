@@ -1,13 +1,14 @@
 nav {
-    background-color:#8fb5fc;
+    /* background-color:#7e90e9; */
+    background: linear-gradient(to right,#57639e,#5dd4d4);
 }
 .container h1{ 
 padding-top: 50px;
 
 }
 :root {
-    --primary:#7c6fbb;
-    --secondary:#379b9b ;
+    --primary:#3347aa;
+    --secondary:#79fafa ;
     --light:rgb(243, 243, 106);
     --dark:#202b2e;
 }
@@ -20,22 +21,26 @@ padding-top: 50px;
     color: white; */
 
     color: white;
+    
 
-    background: rgba( 255, 255, 255, 0.15 );
+     background: rgba(255, 255, 255, 0.13);
     /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
 
-    backdrop-filter: blur( 4.0px );
-    -webkit-backdrop-filter: blur( 4.0px );
+    backdrop-filter: blur( 3.0px );
+    -webkit-backdrop-filter: blur( 3.0px );
 
 }
 .form-control:focus{
 background: transparent;
 color: white;
 
+
+
 }
 
 .form-control::placeholder{
 color: white;
+
 
 }
 
